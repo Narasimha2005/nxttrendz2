@@ -127,8 +127,7 @@ class LoginForm extends Component {
           </button>
           {showSubmitError && <p className="error-message">*{errorMsg}</p>}
           <p>
-            Don&apos;t have an account?
-            <a href="register">Sign Up</a>
+            Don&apos;t have an account?<span><Link to="/register">Sign Up</Link></span>
           </p>
         </form>
       </div>
